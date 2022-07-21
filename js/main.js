@@ -12,7 +12,7 @@ document.querySelector('button').addEventListener('click', () => {
         for (let j = 1; j <= button && j < 101; j++) {
             let row = document.createElement('div')
             row.style.cssText = "background: honeydew; height: 15px; width: 15px"
-            container.style.cssText = "margin: 20px auto; display:flex; flex-wrap: wrap; border: 1px solid black"
+            container.style.cssText = "margin: 20px auto; display:flex; flex-wrap: wrap; border: 1px solid black; box-shadow: 0 0 5px #888888"
             column.appendChild(row)
         }
         container.appendChild(column)
